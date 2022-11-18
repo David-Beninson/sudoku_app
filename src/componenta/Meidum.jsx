@@ -8,7 +8,7 @@ export default function Medium(props) {
       <div id="pobtn">
         <button
           onClick={() => {
-            props.easy();
+            props.medium();
           }}
         >
           start
