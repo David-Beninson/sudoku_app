@@ -8,6 +8,7 @@ export default function Easy(props) {
       <div>
         <div id="pobtn">
         <button
+        id="btn"
           onClick={() => {
             props.easy();
           }}
@@ -15,6 +16,7 @@ export default function Easy(props) {
           start
         </button><br /><br /><br /><br /><br /><br />
         <button
+        id="btn"
           onClick={() => {
             props.checkSudoku();
           }}
@@ -22,7 +24,7 @@ export default function Easy(props) {
           check
         </button><br /><br /><br /><br /><br /><br /><br />
         <Link to={"/Choice"}>
-          <button>Choose a level</button>
+          <button id="btn">Choose a level</button>
         </Link><br /><br /><br /><br />
         </div>
         <h2>GOOD LUCK!!</h2>

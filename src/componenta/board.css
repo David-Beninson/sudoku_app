@@ -60,6 +60,7 @@ input {
         background-color: #05e0c3;
         height: auto;
         justify-items:flex-start;
+        margin: 15px;
     }
     #pobtn{
         margin-left: 1px;
@@ -69,7 +70,7 @@ input {
         justify-content:space-between;
     }
     #btn {
-        border-radius: 100%;
+       border-radius: 0;
        font-size:small;
        background: rgb(1, 6, 250);
        height: min-content;
