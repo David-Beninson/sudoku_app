@@ -109,7 +109,6 @@ function App() {
       counter++;
       for (let row = 0; row < 9; row++) {
         for (let col = 0; col < 9; col++) {
-          console.log(count);
           if (
             document.getElementById(`td${row}${col}`).value == board[row][col]
           ) {
