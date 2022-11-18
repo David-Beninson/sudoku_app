@@ -69,6 +69,7 @@ input {
     }
     button {
         width: auto;
+        font-size: small;
         padding: 0.5rem 0.5rem;
         color: white;
         border: none;
